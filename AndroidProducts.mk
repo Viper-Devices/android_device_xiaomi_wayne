@@ -21,11 +21,11 @@
 # definition file).
 #
 
-# inherit MI 6X HAVOC device config
+# inherit MI 6X device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_wayne.mk
+    $(LOCAL_DIR)/viper_wayne.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_wayne-eng \
-    havoc_wayne-userdebug \
-		havoc_wayne-user
+    viper_wayne-eng \
+    viper_wayne-userdebug \
+    viper_wayne-userhav
